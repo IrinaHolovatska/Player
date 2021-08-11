@@ -1,6 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/player/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -23,7 +26,6 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
-  base: '/player/',
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['~plugins/fullScreen'],
 
