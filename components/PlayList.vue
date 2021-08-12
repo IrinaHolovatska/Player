@@ -1,6 +1,7 @@
 <template>
   <section class="playlist">
     <h3>Now Playing <span> 🎵 </span></h3>
+
     <ul>
       <li v-for="video in allVideo" :key="video.id" class="video-list">
         <div class="cover-playlist" @click="chooseVideo(video)">
