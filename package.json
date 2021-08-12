@@ -7,7 +7,12 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "heroku-postbuild": "yarn build"
+  },
+  "engines": {
+    "node": "14.17.4",
+    "yarn": "1.22.11"
   },
   "dependencies": {
     "core-js": "^3.15.1",
