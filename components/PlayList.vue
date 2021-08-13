@@ -15,7 +15,7 @@
         </div>
         <div class="actions">
           <button @click="removeVideo(video)" class="delete">
-            <img src="/img/images.png" alt="times">
+            <img src="img/images.png" alt="times">
           </button>
         </div>
       </li>

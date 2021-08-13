@@ -5,7 +5,7 @@
       <video :src="activeVideo.src" :poster="activeVideo.cover" ref="videoPlay"></video>
       <div class="volume-fullScreen-cover">
         <Volume :videoRef="videoRef"/>
-        <button class="btn-fullScreen" @click="toggle"><img src="/img/fullscreen.png" alt="icon"></button>
+        <button class="btn-fullScreen" @click="toggle"><img src="img/fullscreen.png" alt="icon"></button>
       </div>
     </div>
 
@@ -25,7 +25,7 @@
       <div class="controls">
         <button class="prev" @click="prev">&#9668;</button>
         <button class="play" ref="play" v-show="!isPlaying" @click="play">&#9654;</button>
-        <button class="stop" v-show="isPlaying" @click="stop"><img src="/img/icons8-pause-48.png" alt="">
+        <button class="stop" v-show="isPlaying" @click="stop"><img src="img/icons8-pause-48.png" alt="">
         </button>
         <button class="next" @click="next">&#9658;</button>
       </div>
