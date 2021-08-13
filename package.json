@@ -7,8 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "heroku-postbuild": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "heroku-postbuild": "yarn build"
   },
   "engines": {
     "node": "14.17.4",
