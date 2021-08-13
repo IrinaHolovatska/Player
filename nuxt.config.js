@@ -1,11 +1,11 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  router: {
-    base: '/player/'
-  },
+  // router: {
+  //   base: '/player/'
+  // },
   generate: {
-    fallback: "404.html"
+    fallback: true
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
